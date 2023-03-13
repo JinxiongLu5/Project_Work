@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+<folder>images</folder>
+<filename>?.png</filename>
+<source>
+<database>MyDatabase</database>
+<annotation>COCO2017</annotation>
+<image>flickr</image>
+<flickrid>NULL</flickrid>
+<annotator>1</annotator>
+</source>
+<owner>
+<flickrid>NULL</flickrid>
+<name>Jinxiong Lu</name>
+</owner>
+<size>
+<width>512</width>
+<height>512</height>
+<depth>3</depth>
+</size>
+<segmented>0</segmented>
+</annotation>

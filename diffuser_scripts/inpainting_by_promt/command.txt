@@ -1,0 +1,11 @@
+source ~/.bashrc
+conda env list
+conda activate diffusers
+
+# inpainting pipeline
+resize.py
+maskImg_generating.py
+multi_inpaint.py or my_inpaint.py
+
+# Notes
+inpainting with text guidance or inpainting with example?

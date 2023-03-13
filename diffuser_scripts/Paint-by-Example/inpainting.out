@@ -1,0 +1,507 @@
+no change     /share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2023-01/2eea7963/condabin/conda
+no change     /share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2023-01/2eea7963/bin/conda
+no change     /share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2023-01/2eea7963/bin/conda-env
+no change     /share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2023-01/2eea7963/bin/activate
+no change     /share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2023-01/2eea7963/bin/deactivate
+no change     /share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2023-01/2eea7963/etc/profile.d/conda.sh
+no change     /share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2023-01/2eea7963/etc/fish/conf.d/conda.fish
+no change     /share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2023-01/2eea7963/shell/condabin/Conda.psm1
+no change     /share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2023-01/2eea7963/shell/condabin/conda-hook.ps1
+no change     /share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2023-01/2eea7963/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2023-01/2eea7963/etc/profile.d/conda.csh
+no change     /home/luj4/.bashrc
+No action taken.
+Global seed set to 23
+Running on GPUs 0
+LatentDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 859.54 M params.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Some weights of the model checkpoint at openai/clip-vit-large-patch14 were not used when initializing CLIPVisionModel: ['text_model.encoder.layers.7.layer_norm2.weight', 'text_model.encoder.layers.0.mlp.fc2.weight', 'text_model.encoder.layers.7.self_attn.k_proj.weight', 'text_model.encoder.layers.10.self_attn.out_proj.weight', 'text_model.encoder.layers.3.mlp.fc2.bias', 'text_model.encoder.layers.4.layer_norm1.bias', 'text_model.encoder.layers.8.mlp.fc1.bias', 'text_model.encoder.layers.3.layer_norm2.weight', 'text_model.encoder.layers.11.self_attn.out_proj.weight', 'text_model.encoder.layers.10.self_attn.k_proj.weight', 'text_model.encoder.layers.2.self_attn.out_proj.bias', 'text_model.encoder.layers.9.self_attn.k_proj.weight', 'text_model.encoder.layers.11.self_attn.k_proj.bias', 'text_model.encoder.layers.5.self_attn.v_proj.weight', 'text_model.encoder.layers.1.mlp.fc1.bias', 'text_model.final_layer_norm.weight', 'text_model.encoder.layers.6.mlp.fc2.bias', 'text_model.encoder.layers.5.self_attn.q_proj.weight', 'text_model.encoder.layers.1.self_attn.out_proj.weight', 'text_model.encoder.layers.7.mlp.fc2.weight', 'text_model.encoder.layers.9.layer_norm1.bias', 'text_model.encoder.layers.3.mlp.fc1.weight', 'text_model.encoder.layers.4.self_attn.v_proj.weight', 'text_model.encoder.layers.7.layer_norm2.bias', 'text_model.encoder.layers.9.layer_norm2.bias', 'text_model.encoder.layers.2.self_attn.out_proj.weight', 'text_model.encoder.layers.10.self_attn.k_proj.bias', 'text_model.encoder.layers.1.mlp.fc2.bias', 'text_model.encoder.layers.11.mlp.fc2.weight', 'text_model.encoder.layers.7.self_attn.v_proj.weight', 'text_model.encoder.layers.7.mlp.fc2.bias', 'text_model.encoder.layers.5.self_attn.out_proj.bias', 'text_model.encoder.layers.10.mlp.fc1.bias', 'text_model.encoder.layers.0.self_attn.out_proj.bias', 'text_model.encoder.layers.5.mlp.fc2.weight', 'text_model.encoder.layers.0.layer_norm2.weight', 'text_model.encoder.layers.5.layer_norm1.bias', 'text_model.encoder.layers.1.self_attn.q_proj.weight', 'text_model.encoder.layers.2.layer_norm1.weight', 'text_model.encoder.layers.11.mlp.fc1.bias', 'text_model.embeddings.position_embedding.weight', 'text_model.encoder.layers.9.self_attn.k_proj.bias', 'text_model.encoder.layers.9.self_attn.out_proj.bias', 'text_model.encoder.layers.8.self_attn.v_proj.bias', 'text_model.encoder.layers.8.layer_norm2.weight', 'text_model.encoder.layers.1.self_attn.out_proj.bias', 'text_model.encoder.layers.8.self_attn.q_proj.weight', 'text_model.encoder.layers.2.self_attn.v_proj.bias', 'text_model.encoder.layers.6.mlp.fc1.weight', 'text_model.encoder.layers.0.mlp.fc2.bias', 'text_model.encoder.layers.4.layer_norm2.weight', 'text_model.encoder.layers.11.layer_norm2.weight', 'text_model.encoder.layers.5.mlp.fc2.bias', 'text_model.encoder.layers.2.mlp.fc2.weight', 'text_model.encoder.layers.5.self_attn.out_proj.weight', 'text_model.encoder.layers.11.self_attn.v_proj.bias', 'text_model.encoder.layers.10.layer_norm2.bias', 'text_model.encoder.layers.6.mlp.fc1.bias', 'text_model.encoder.layers.9.mlp.fc2.weight', 'text_model.embeddings.token_embedding.weight', 'text_model.encoder.layers.3.mlp.fc2.weight', 'text_model.encoder.layers.4.self_attn.v_proj.bias', 'text_model.encoder.layers.10.layer_norm2.weight', 'text_model.encoder.layers.6.self_attn.v_proj.bias', 'text_model.encoder.layers.5.mlp.fc1.weight', 'text_model.final_layer_norm.bias', 'text_model.encoder.layers.6.mlp.fc2.weight', 'text_model.encoder.layers.8.layer_norm1.weight', 'text_model.encoder.layers.6.self_attn.v_proj.weight', 'text_model.encoder.layers.7.self_attn.q_proj.bias', 'text_model.encoder.layers.0.self_attn.k_proj.weight', 'text_model.encoder.layers.4.self_attn.out_proj.bias', 'text_model.encoder.layers.7.mlp.fc1.weight', 'text_model.encoder.layers.9.self_attn.q_proj.bias', 'text_model.encoder.layers.2.layer_norm2.bias', 'text_model.encoder.layers.4.mlp.fc2.bias', 'text_model.embeddings.position_ids', 'text_model.encoder.layers.9.mlp.fc1.bias', 'text_model.encoder.layers.10.self_attn.q_proj.weight', 'text_model.encoder.layers.10.mlp.fc2.weight', 'text_model.encoder.layers.1.layer_norm1.bias', 'text_model.encoder.layers.6.self_attn.q_proj.bias', 'text_model.encoder.layers.2.self_attn.k_proj.bias', 'text_model.encoder.layers.10.mlp.fc1.weight', 'text_model.encoder.layers.5.self_attn.k_proj.weight', 'text_model.encoder.layers.1.mlp.fc1.weight', 'text_model.encoder.layers.4.self_attn.q_proj.weight', 'text_model.encoder.layers.9.layer_norm1.weight', 'text_model.encoder.layers.10.layer_norm1.bias', 'text_model.encoder.layers.3.layer_norm1.weight', 'text_model.encoder.layers.3.self_attn.k_proj.bias', 'text_model.encoder.layers.8.self_attn.k_proj.weight', 'text_model.encoder.layers.2.mlp.fc1.bias', 'text_model.encoder.layers.1.layer_norm1.weight', 'text_model.encoder.layers.3.self_attn.v_proj.weight', 'text_model.encoder.layers.1.layer_norm2.bias', 'text_model.encoder.layers.9.layer_norm2.weight', 'text_model.encoder.layers.6.self_attn.q_proj.weight', 'text_model.encoder.layers.0.layer_norm2.bias', 'text_model.encoder.layers.4.layer_norm1.weight', 'text_model.encoder.layers.10.self_attn.q_proj.bias', 'visual_projection.weight', 'text_model.encoder.layers.3.self_attn.q_proj.weight', 'text_model.encoder.layers.11.self_attn.q_proj.bias', 'text_model.encoder.layers.9.mlp.fc2.bias', 'text_model.encoder.layers.1.self_attn.v_proj.bias', 'text_model.encoder.layers.4.self_attn.k_proj.bias', 'text_model.encoder.layers.1.self_attn.k_proj.weight', 'text_model.encoder.layers.0.self_attn.q_proj.bias', 'text_model.encoder.layers.2.layer_norm2.weight', 'text_model.encoder.layers.2.self_attn.v_proj.weight', 'text_model.encoder.layers.1.layer_norm2.weight', 'text_model.encoder.layers.1.self_attn.v_proj.weight', 'text_model.encoder.layers.10.mlp.fc2.bias', 'text_model.encoder.layers.1.self_attn.q_proj.bias', 'text_model.encoder.layers.5.layer_norm2.weight', 'text_model.encoder.layers.0.self_attn.k_proj.bias', 'text_model.encoder.layers.4.self_attn.q_proj.bias', 'text_model.encoder.layers.3.self_attn.k_proj.weight', 'text_model.encoder.layers.8.self_attn.out_proj.bias', 'text_model.encoder.layers.10.self_attn.v_proj.weight', 'text_model.encoder.layers.1.mlp.fc2.weight', 'text_model.encoder.layers.5.self_attn.k_proj.bias', 'text_model.encoder.layers.7.layer_norm1.bias', 'text_model.encoder.layers.7.self_attn.k_proj.bias', 'text_model.encoder.layers.11.layer_norm1.weight', 'text_model.encoder.layers.5.layer_norm1.weight', 'text_model.encoder.layers.8.self_attn.v_proj.weight', 'text_model.encoder.layers.11.layer_norm1.bias', 'text_model.encoder.layers.6.layer_norm2.weight', 'text_model.encoder.layers.11.mlp.fc2.bias', 'text_model.encoder.layers.8.mlp.fc1.weight', 'text_model.encoder.layers.3.layer_norm1.bias', 'text_model.encoder.layers.0.self_attn.v_proj.weight', 'text_model.encoder.layers.9.self_attn.v_proj.bias', 'text_model.encoder.layers.8.layer_norm2.bias', 'text_model.encoder.layers.3.self_attn.out_proj.bias', 'text_model.encoder.layers.7.self_attn.v_proj.bias', 'text_model.encoder.layers.6.layer_norm1.bias', 'text_model.encoder.layers.7.self_attn.out_proj.bias', 'text_model.encoder.layers.0.layer_norm1.bias', 'text_model.encoder.layers.5.layer_norm2.bias', 'text_model.encoder.layers.7.self_attn.q_proj.weight', 'text_model.encoder.layers.8.mlp.fc2.weight', 'text_model.encoder.layers.5.self_attn.v_proj.bias', 'text_model.encoder.layers.6.layer_norm2.bias', 'text_model.encoder.layers.6.layer_norm1.weight', 'text_model.encoder.layers.10.self_attn.v_proj.bias', 'logit_scale', 'text_model.encoder.layers.8.self_attn.q_proj.bias', 'text_model.encoder.layers.0.mlp.fc1.bias', 'text_model.encoder.layers.3.mlp.fc1.bias', 'text_model.encoder.layers.11.self_attn.q_proj.weight', 'text_model.encoder.layers.10.layer_norm1.weight', 'text_model.encoder.layers.7.mlp.fc1.bias', 'text_model.encoder.layers.9.self_attn.v_proj.weight', 'text_model.encoder.layers.11.self_attn.k_proj.weight', 'text_model.encoder.layers.2.self_attn.k_proj.weight', 'text_model.encoder.layers.8.mlp.fc2.bias', 'text_model.encoder.layers.2.layer_norm1.bias', 'text_model.encoder.layers.8.self_attn.k_proj.bias', 'text_model.encoder.layers.11.layer_norm2.bias', 'text_model.encoder.layers.3.self_attn.out_proj.weight', 'text_model.encoder.layers.9.self_attn.out_proj.weight', 'text_model.encoder.layers.0.self_attn.q_proj.weight', 'text_model.encoder.layers.6.self_attn.out_proj.bias', 'text_model.encoder.layers.7.layer_norm1.weight', 'text_model.encoder.layers.1.self_attn.k_proj.bias', 'text_model.encoder.layers.10.self_attn.out_proj.bias', 'text_model.encoder.layers.7.self_attn.out_proj.weight', 'text_model.encoder.layers.6.self_attn.k_proj.bias', 'text_model.encoder.layers.0.self_attn.v_proj.bias', 'text_model.encoder.layers.0.self_attn.out_proj.weight', 'text_model.encoder.layers.2.self_attn.q_proj.weight', 'text_model.encoder.layers.5.self_attn.q_proj.bias', 'text_model.encoder.layers.6.self_attn.k_proj.weight', 'text_model.encoder.layers.8.layer_norm1.bias', 'text_model.encoder.layers.4.mlp.fc1.weight', 'text_model.encoder.layers.2.self_attn.q_proj.bias', 'text_model.encoder.layers.9.mlp.fc1.weight', 'text_model.encoder.layers.9.self_attn.q_proj.weight', 'text_model.encoder.layers.11.mlp.fc1.weight', 'text_model.encoder.layers.3.layer_norm2.bias', 'text_model.encoder.layers.0.mlp.fc1.weight', 'text_model.encoder.layers.6.self_attn.out_proj.weight', 'text_model.encoder.layers.0.layer_norm1.weight', 'text_model.encoder.layers.2.mlp.fc2.bias', 'text_model.encoder.layers.4.mlp.fc1.bias', 'text_model.encoder.layers.5.mlp.fc1.bias', 'text_model.encoder.layers.4.self_attn.out_proj.weight', 'text_model.encoder.layers.11.self_attn.out_proj.bias', 'text_model.encoder.layers.4.layer_norm2.bias', 'text_model.encoder.layers.8.self_attn.out_proj.weight', 'text_model.encoder.layers.11.self_attn.v_proj.weight', 'text_model.encoder.layers.4.mlp.fc2.weight', 'text_model.encoder.layers.2.mlp.fc1.weight', 'text_model.encoder.layers.3.self_attn.v_proj.bias', 'text_model.encoder.layers.4.self_attn.k_proj.weight', 'text_model.encoder.layers.3.self_attn.q_proj.bias', 'text_projection.weight']
+- This IS expected if you are initializing CLIPVisionModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing CLIPVisionModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Load Stable Diffusion v1-4!
+Monitoring val/loss_simple_ema as checkpoint metric.
+Merged modelckpt-cfg: 
+{'target': 'pytorch_lightning.callbacks.ModelCheckpoint', 'params': {'dirpath': 'models/Paint-by-Example/2023-03-12T20-46-00_v1/checkpoints', 'filename': '{epoch:06}', 'verbose': True, 'save_last': True, 'monitor': 'val/loss_simple_ema', 'save_top_k': 30}}
+/scratch/work/luj4/.conda_envsls/Paint-by-Example/lib/python3.8/site-packages/pytorch_lightning/utilities/device_parser.py:135: LightningDeprecationWarning: Parsing of the Trainer argument gpus='0' (string) will change in the future. In the current version of Lightning, this will select CUDA device with index 0, but from v1.5 it will select gpus [] (same as gpus=0 (int)).
+  rank_zero_deprecation(
+Multi-processing is handled by Slurm.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+/scratch/work/luj4/Documents/Aalto_Courses/Project_work/diffuser_scripts/Paint-by-Example/ldm/data/open-images.py:4: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/scratch/work/luj4/.conda_envsls/Paint-by-Example/lib/python3.8/site-packages/albumentations/augmentations/functional.py:9: DeprecationWarning: Please use `gaussian_filter` from the `scipy.ndimage` namespace, the `scipy.ndimage.filters` namespace is deprecated.
+  from scipy.ndimage.filters import gaussian_filter
+#### Data #####
+train, OpenImageDataset, 1890
+validation, OpenImageDataset, 7
+test, OpenImageDataset, 26
+accumulate_grad_batches = 1
+++++ NOT USING LR SCALING ++++
+Setting learning rate to 1.00e-05
+Global seed set to 23
+initializing ddp: GLOBAL_RANK: 0, MEMBER: 1/1
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All DDP processes registered. Starting ddp with 1 processes
+----------------------------------------------------------------------------------------------------
+
+/scratch/work/luj4/.conda_envsls/Paint-by-Example/lib/python3.8/site-packages/pytorch_lightning/core/datamodule.py:423: LightningDeprecationWarning: DataModule.setup has already been called, so it will not be called again. In v1.6 this behavior will change to always call DataModule.setup.
+  rank_zero_deprecation(
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+LatentDiffusion: Also optimizing conditioner params!
+Setting up LambdaLR scheduler...
+Set SLURM handle signals.
+Project config
+model:
+  base_learning_rate: 1.0e-05
+  target: ldm.models.diffusion.ddpm.LatentDiffusion
+  params:
+    linear_start: 0.00085
+    linear_end: 0.012
+    num_timesteps_cond: 1
+    log_every_t: 200
+    timesteps: 1000
+    first_stage_key: inpaint
+    cond_stage_key: image
+    image_size: 64
+    channels: 4
+    cond_stage_trainable: true
+    conditioning_key: crossattn
+    monitor: val/loss_simple_ema
+    u_cond_percent: 0.2
+    scale_factor: 0.18215
+    use_ema: false
+    scheduler_config:
+      target: ldm.lr_scheduler.LambdaLinearScheduler
+      params:
+        warm_up_steps:
+        - 10000
+        cycle_lengths:
+        - 10000000000000
+        f_start:
+        - 1.0e-06
+        f_max:
+        - 1.0
+        f_min:
+        - 1.0
+    unet_config:
+      target: ldm.modules.diffusionmodules.openaimodel.UNetModel
+      params:
+        image_size: 32
+        in_channels: 9
+        out_channels: 4
+        model_channels: 320
+        attention_resolutions:
+        - 4
+        - 2
+        - 1
+        num_res_blocks: 2
+        channel_mult:
+        - 1
+        - 2
+        - 4
+        - 4
+        num_heads: 8
+        use_spatial_transformer: true
+        transformer_depth: 1
+        context_dim: 768
+        use_checkpoint: true
+        legacy: false
+        add_conv_in_front_of_unet: false
+    first_stage_config:
+      target: ldm.models.autoencoder.AutoencoderKL
+      params:
+        embed_dim: 4
+        monitor: val/rec_loss
+        ddconfig:
+          double_z: true
+          z_channels: 4
+          resolution: 256
+          in_channels: 3
+          out_ch: 3
+          ch: 128
+          ch_mult:
+          - 1
+          - 2
+          - 4
+          - 4
+          num_res_blocks: 2
+          attn_resolutions: []
+          dropout: 0.0
+        lossconfig:
+          target: torch.nn.Identity
+    cond_stage_config:
+      target: ldm.modules.encoders.modules.FrozenCLIPImageEmbedder
+data:
+  target: main.DataModuleFromConfig
+  params:
+    batch_size: 4
+    wrap: false
+    train:
+      target: ldm.data.open-images.OpenImageDataset
+      params:
+        state: train
+        dataset_dir: dataset/open-images
+        arbitrary_mask_percent: 0.5
+        image_size: 512
+    validation:
+      target: ldm.data.open-images.OpenImageDataset
+      params:
+        state: validation
+        dataset_dir: dataset/open-images
+        arbitrary_mask_percent: 0.5
+        image_size: 512
+    test:
+      target: ldm.data.open-images.OpenImageDataset
+      params:
+        state: test
+        dataset_dir: dataset/open-images
+        arbitrary_mask_percent: 0.5
+        image_size: 512
+
+Lightning config
+trainer:
+  max_epochs: 40
+  num_nodes: 1
+  accelerator: ddp
+  gpus: '0'
+
+
+  | Name              | Type                    | Params
+--------------------------------------------------------------
+0 | model             | DiffusionWrapper        | 859 M 
+1 | proj_out          | Linear                  | 787 K 
+2 | first_stage_model | AutoencoderKL           | 83.7 M
+3 | cond_stage_model  | FrozenCLIPImageEmbedder | 366 M 
+--------------------------------------------------------------
+923 M     Trainable params
+386 M     Non-trainable params
+1.3 B     Total params
+5,240.561 Total estimated model params size (MB)
+Validation sanity check: 0it [00:00, ?it/s]Validation sanity check:   0%|          | 0/2 [00:00<?, ?it/s]Validation sanity check:  50%|█████     | 1/2 [00:09<00:09,  9.20s/it]Validation sanity check: 100%|██████████| 2/2 [00:10<00:00,  4.65s/it]                                                                      Global seed set to 23
+Training: -1it [00:00, ?it/s]Training:   0%|          | 0/475 [00:00<00:00, 20068.44it/s]Epoch 0:   0%|          | 0/475 [00:00<00:00, 4161.02it/s]  /scratch/work/luj4/.conda_envsls/Paint-by-Example/lib/python3.8/site-packages/torch/autograd/__init__.py:197: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [320, 320, 1, 1], strides() = [320, 1, 320, 320]
+bucket_view.sizes() = [320, 320, 1, 1], strides() = [320, 1, 1, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:325.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Epoch 0:   0%|          | 1/475 [00:03<15:34,  1.97s/it]  Epoch 0:   0%|          | 1/475 [00:03<15:34,  1.97s/it, loss=0.12, v_num=0, train/loss_simple_step=0.120, train/loss_vlb_step=0.00145, train/loss_step=0.120, global_step=0.000, lr_abs=1e-11]Data shape for DDIM sampling is (4, 4, 64, 64), eta 1.0
+Running DDIM Sampling with 200 timesteps
+
+DDIM Sampler:   0%|          | 0/200 [00:00<?, ?it/s][A
+DDIM Sampler:   0%|          | 1/200 [00:00<01:04,  3.10it/s][A
+DDIM Sampler:   1%|          | 2/200 [00:00<01:04,  3.09it/s][A
+DDIM Sampler:   2%|▏         | 3/200 [00:00<01:03,  3.10it/s][A
+DDIM Sampler:   2%|▏         | 4/200 [00:01<01:03,  3.10it/s][A
+DDIM Sampler:   2%|▎         | 5/200 [00:01<01:03,  3.09it/s][A
+DDIM Sampler:   3%|▎         | 6/200 [00:01<01:02,  3.10it/s][A
+DDIM Sampler:   4%|▎         | 7/200 [00:02<01:02,  3.10it/s][A
+DDIM Sampler:   4%|▍         | 8/200 [00:02<01:01,  3.10it/s][A
+DDIM Sampler:   4%|▍         | 9/200 [00:02<01:01,  3.10it/s][A
+DDIM Sampler:   5%|▌         | 10/200 [00:03<01:01,  3.11it/s][A
+DDIM Sampler:   6%|▌         | 11/200 [00:03<01:00,  3.11it/s][A
+DDIM Sampler:   6%|▌         | 12/200 [00:03<01:00,  3.10it/s][A
+DDIM Sampler:   6%|▋         | 13/200 [00:04<01:00,  3.10it/s][A
+DDIM Sampler:   7%|▋         | 14/200 [00:04<00:59,  3.10it/s][A
+DDIM Sampler:   8%|▊         | 15/200 [00:04<00:59,  3.10it/s][A
+DDIM Sampler:   8%|▊         | 16/200 [00:05<00:59,  3.11it/s][A
+DDIM Sampler:   8%|▊         | 17/200 [00:05<00:58,  3.11it/s][A
+DDIM Sampler:   9%|▉         | 18/200 [00:05<00:58,  3.10it/s][A
+DDIM Sampler:  10%|▉         | 19/200 [00:06<00:58,  3.10it/s][A
+DDIM Sampler:  10%|█         | 20/200 [00:06<00:58,  3.10it/s][A
+DDIM Sampler:  10%|█         | 21/200 [00:06<00:57,  3.10it/s][A
+DDIM Sampler:  11%|█         | 22/200 [00:07<00:57,  3.10it/s][A
+DDIM Sampler:  12%|█▏        | 23/200 [00:07<00:57,  3.10it/s][A
+DDIM Sampler:  12%|█▏        | 24/200 [00:07<00:56,  3.09it/s][A
+DDIM Sampler:  12%|█▎        | 25/200 [00:08<00:56,  3.10it/s][A
+DDIM Sampler:  13%|█▎        | 26/200 [00:08<00:56,  3.10it/s][A
+DDIM Sampler:  14%|█▎        | 27/200 [00:08<00:56,  3.05it/s][A
+DDIM Sampler:  14%|█▍        | 28/200 [00:09<00:56,  3.06it/s][A
+DDIM Sampler:  14%|█▍        | 29/200 [00:09<00:55,  3.08it/s][A
+DDIM Sampler:  15%|█▌        | 30/200 [00:09<00:55,  3.08it/s][A
+DDIM Sampler:  16%|█▌        | 31/200 [00:10<00:54,  3.08it/s][A
+DDIM Sampler:  16%|█▌        | 32/200 [00:10<00:54,  3.09it/s][A
+DDIM Sampler:  16%|█▋        | 33/200 [00:10<00:53,  3.09it/s][A
+DDIM Sampler:  17%|█▋        | 34/200 [00:10<00:53,  3.09it/s][A
+DDIM Sampler:  18%|█▊        | 35/200 [00:11<00:53,  3.09it/s][A
+DDIM Sampler:  18%|█▊        | 36/200 [00:11<00:52,  3.10it/s][A
+DDIM Sampler:  18%|█▊        | 37/200 [00:11<00:52,  3.10it/s][A
+DDIM Sampler:  19%|█▉        | 38/200 [00:12<00:52,  3.10it/s][A
+DDIM Sampler:  20%|█▉        | 39/200 [00:12<00:51,  3.10it/s][A
+DDIM Sampler:  20%|██        | 40/200 [00:12<00:51,  3.10it/s][A
+DDIM Sampler:  20%|██        | 41/200 [00:13<00:51,  3.10it/s][A
+DDIM Sampler:  21%|██        | 42/200 [00:13<00:50,  3.10it/s][A
+DDIM Sampler:  22%|██▏       | 43/200 [00:13<00:50,  3.10it/s][A
+DDIM Sampler:  22%|██▏       | 44/200 [00:14<00:50,  3.10it/s][A
+DDIM Sampler:  22%|██▎       | 45/200 [00:14<00:49,  3.10it/s][A
+DDIM Sampler:  23%|██▎       | 46/200 [00:14<00:49,  3.09it/s][A
+DDIM Sampler:  24%|██▎       | 47/200 [00:15<00:49,  3.09it/s][A
+DDIM Sampler:  24%|██▍       | 48/200 [00:15<00:49,  3.10it/s][A
+DDIM Sampler:  24%|██▍       | 49/200 [00:15<00:48,  3.10it/s][A
+DDIM Sampler:  25%|██▌       | 50/200 [00:16<00:48,  3.10it/s][A
+DDIM Sampler:  26%|██▌       | 51/200 [00:16<00:48,  3.09it/s][A
+DDIM Sampler:  26%|██▌       | 52/200 [00:16<00:47,  3.10it/s][A
+DDIM Sampler:  26%|██▋       | 53/200 [00:17<00:47,  3.09it/s][A
+DDIM Sampler:  27%|██▋       | 54/200 [00:17<00:47,  3.09it/s][A
+DDIM Sampler:  28%|██▊       | 55/200 [00:17<00:46,  3.10it/s][A
+DDIM Sampler:  28%|██▊       | 56/200 [00:18<00:46,  3.09it/s][A
+DDIM Sampler:  28%|██▊       | 57/200 [00:18<00:46,  3.10it/s][A
+DDIM Sampler:  29%|██▉       | 58/200 [00:18<00:45,  3.09it/s][A
+DDIM Sampler:  30%|██▉       | 59/200 [00:19<00:45,  3.09it/s][A
+DDIM Sampler:  30%|███       | 60/200 [00:19<00:45,  3.09it/s][A
+DDIM Sampler:  30%|███       | 61/200 [00:19<00:44,  3.09it/s][A
+DDIM Sampler:  31%|███       | 62/200 [00:20<00:44,  3.09it/s][A
+DDIM Sampler:  32%|███▏      | 63/200 [00:20<00:44,  3.09it/s][A
+DDIM Sampler:  32%|███▏      | 64/200 [00:20<00:44,  3.09it/s][A
+DDIM Sampler:  32%|███▎      | 65/200 [00:21<00:44,  3.07it/s][A
+DDIM Sampler:  33%|███▎      | 66/200 [00:21<00:43,  3.08it/s][A
+DDIM Sampler:  34%|███▎      | 67/200 [00:21<00:43,  3.09it/s][A
+DDIM Sampler:  34%|███▍      | 68/200 [00:21<00:42,  3.09it/s][A
+DDIM Sampler:  34%|███▍      | 69/200 [00:22<00:42,  3.09it/s][A
+DDIM Sampler:  35%|███▌      | 70/200 [00:22<00:42,  3.09it/s][A
+DDIM Sampler:  36%|███▌      | 71/200 [00:22<00:41,  3.09it/s][A
+DDIM Sampler:  36%|███▌      | 72/200 [00:23<00:41,  3.09it/s][A
+DDIM Sampler:  36%|███▋      | 73/200 [00:23<00:41,  3.09it/s][A
+DDIM Sampler:  37%|███▋      | 74/200 [00:23<00:40,  3.09it/s][A
+DDIM Sampler:  38%|███▊      | 75/200 [00:24<00:40,  3.09it/s][A
+DDIM Sampler:  38%|███▊      | 76/200 [00:24<00:40,  3.09it/s][A
+DDIM Sampler:  38%|███▊      | 77/200 [00:24<00:39,  3.09it/s][A
+DDIM Sampler:  39%|███▉      | 78/200 [00:25<00:39,  3.08it/s][A
+DDIM Sampler:  40%|███▉      | 79/200 [00:25<00:39,  3.08it/s][A
+DDIM Sampler:  40%|████      | 80/200 [00:25<00:38,  3.09it/s][A
+DDIM Sampler:  40%|████      | 81/200 [00:26<00:38,  3.09it/s][A
+DDIM Sampler:  41%|████      | 82/200 [00:26<00:38,  3.09it/s][A
+DDIM Sampler:  42%|████▏     | 83/200 [00:26<00:37,  3.09it/s][A
+DDIM Sampler:  42%|████▏     | 84/200 [00:27<00:38,  3.05it/s][A
+DDIM Sampler:  42%|████▎     | 85/200 [00:27<00:37,  3.06it/s][A
+DDIM Sampler:  43%|████▎     | 86/200 [00:27<00:37,  3.07it/s][A
+DDIM Sampler:  44%|████▎     | 87/200 [00:28<00:36,  3.07it/s][A
+DDIM Sampler:  44%|████▍     | 88/200 [00:28<00:36,  3.07it/s][A
+DDIM Sampler:  44%|████▍     | 89/200 [00:28<00:36,  3.08it/s][A
+DDIM Sampler:  45%|████▌     | 90/200 [00:29<00:35,  3.08it/s][A
+DDIM Sampler:  46%|████▌     | 91/200 [00:29<00:35,  3.08it/s][A
+DDIM Sampler:  46%|████▌     | 92/200 [00:29<00:35,  3.08it/s][A
+DDIM Sampler:  46%|████▋     | 93/200 [00:30<00:34,  3.08it/s][A
+DDIM Sampler:  47%|████▋     | 94/200 [00:30<00:34,  3.08it/s][A
+DDIM Sampler:  48%|████▊     | 95/200 [00:30<00:34,  3.08it/s][A
+DDIM Sampler:  48%|████▊     | 96/200 [00:31<00:33,  3.09it/s][A
+DDIM Sampler:  48%|████▊     | 97/200 [00:31<00:33,  3.09it/s][A
+DDIM Sampler:  49%|████▉     | 98/200 [00:31<00:33,  3.09it/s][A
+DDIM Sampler:  50%|████▉     | 99/200 [00:32<00:32,  3.09it/s][A
+DDIM Sampler:  50%|█████     | 100/200 [00:32<00:32,  3.09it/s][A
+DDIM Sampler:  50%|█████     | 101/200 [00:32<00:32,  3.09it/s][A
+DDIM Sampler:  51%|█████     | 102/200 [00:33<00:31,  3.09it/s][A
+DDIM Sampler:  52%|█████▏    | 103/200 [00:33<00:32,  3.03it/s][A
+DDIM Sampler:  52%|█████▏    | 104/200 [00:33<00:31,  3.04it/s][A
+DDIM Sampler:  52%|█████▎    | 105/200 [00:33<00:31,  3.06it/s][A
+DDIM Sampler:  53%|█████▎    | 106/200 [00:34<00:30,  3.07it/s][A
+DDIM Sampler:  54%|█████▎    | 107/200 [00:34<00:30,  3.07it/s][A
+DDIM Sampler:  54%|█████▍    | 108/200 [00:34<00:30,  3.07it/s][A
+DDIM Sampler:  55%|█████▍    | 109/200 [00:35<00:29,  3.07it/s][A
+DDIM Sampler:  55%|█████▌    | 110/200 [00:35<00:29,  3.07it/s][A
+DDIM Sampler:  56%|█████▌    | 111/200 [00:35<00:28,  3.08it/s][A
+DDIM Sampler:  56%|█████▌    | 112/200 [00:36<00:28,  3.08it/s][A
+DDIM Sampler:  56%|█████▋    | 113/200 [00:36<00:28,  3.08it/s][A
+DDIM Sampler:  57%|█████▋    | 114/200 [00:36<00:27,  3.08it/s][A
+DDIM Sampler:  57%|█████▊    | 115/200 [00:37<00:27,  3.09it/s][A
+DDIM Sampler:  58%|█████▊    | 116/200 [00:37<00:27,  3.08it/s][A
+DDIM Sampler:  58%|█████▊    | 117/200 [00:37<00:26,  3.08it/s][A
+DDIM Sampler:  59%|█████▉    | 118/200 [00:38<00:26,  3.08it/s][A
+DDIM Sampler:  60%|█████▉    | 119/200 [00:38<00:26,  3.08it/s][A
+DDIM Sampler:  60%|██████    | 120/200 [00:38<00:26,  3.08it/s][A
+DDIM Sampler:  60%|██████    | 121/200 [00:39<00:25,  3.08it/s][A
+DDIM Sampler:  61%|██████    | 122/200 [00:39<00:25,  3.08it/s][A
+DDIM Sampler:  62%|██████▏   | 123/200 [00:39<00:24,  3.09it/s][A
+DDIM Sampler:  62%|██████▏   | 124/200 [00:40<00:24,  3.09it/s][A
+DDIM Sampler:  62%|██████▎   | 125/200 [00:40<00:24,  3.09it/s][A
+DDIM Sampler:  63%|██████▎   | 126/200 [00:40<00:23,  3.09it/s][A
+DDIM Sampler:  64%|██████▎   | 127/200 [00:41<00:23,  3.09it/s][A
+DDIM Sampler:  64%|██████▍   | 128/200 [00:41<00:23,  3.08it/s][A
+DDIM Sampler:  64%|██████▍   | 129/200 [00:41<00:23,  3.08it/s][A
+DDIM Sampler:  65%|██████▌   | 130/200 [00:42<00:22,  3.08it/s][A
+DDIM Sampler:  66%|██████▌   | 131/200 [00:42<00:22,  3.08it/s][A
+DDIM Sampler:  66%|██████▌   | 132/200 [00:42<00:22,  3.08it/s][A
+DDIM Sampler:  66%|██████▋   | 133/200 [00:43<00:21,  3.08it/s][A
+DDIM Sampler:  67%|██████▋   | 134/200 [00:43<00:21,  3.05it/s][A
+DDIM Sampler:  68%|██████▊   | 135/200 [00:43<00:21,  3.06it/s][A
+DDIM Sampler:  68%|██████▊   | 136/200 [00:44<00:20,  3.07it/s][A
+DDIM Sampler:  68%|██████▊   | 137/200 [00:44<00:20,  3.07it/s][A
+DDIM Sampler:  69%|██████▉   | 138/200 [00:44<00:20,  3.07it/s][A
+DDIM Sampler:  70%|██████▉   | 139/200 [00:45<00:19,  3.08it/s][A
+DDIM Sampler:  70%|███████   | 140/200 [00:45<00:19,  3.08it/s][A
+DDIM Sampler:  70%|███████   | 141/200 [00:45<00:19,  3.08it/s][A
+DDIM Sampler:  71%|███████   | 142/200 [00:46<00:18,  3.08it/s][A
+DDIM Sampler:  72%|███████▏  | 143/200 [00:46<00:18,  3.08it/s][A
+DDIM Sampler:  72%|███████▏  | 144/200 [00:46<00:18,  3.08it/s][A
+DDIM Sampler:  72%|███████▎  | 145/200 [00:46<00:17,  3.08it/s][A
+DDIM Sampler:  73%|███████▎  | 146/200 [00:47<00:17,  3.08it/s][A
+DDIM Sampler:  74%|███████▎  | 147/200 [00:47<00:17,  3.08it/s][A
+DDIM Sampler:  74%|███████▍  | 148/200 [00:47<00:16,  3.08it/s][A
+DDIM Sampler:  74%|███████▍  | 149/200 [00:48<00:16,  3.08it/s][A
+DDIM Sampler:  75%|███████▌  | 150/200 [00:48<00:16,  3.08it/s][A
+DDIM Sampler:  76%|███████▌  | 151/200 [00:48<00:15,  3.08it/s][A
+DDIM Sampler:  76%|███████▌  | 152/200 [00:49<00:15,  3.08it/s][A
+DDIM Sampler:  76%|███████▋  | 153/200 [00:49<00:15,  3.08it/s][A
+DDIM Sampler:  77%|███████▋  | 154/200 [00:49<00:14,  3.07it/s][A
+DDIM Sampler:  78%|███████▊  | 155/200 [00:50<00:14,  3.07it/s][A
+DDIM Sampler:  78%|███████▊  | 156/200 [00:50<00:14,  3.08it/s][A
+DDIM Sampler:  78%|███████▊  | 157/200 [00:50<00:13,  3.08it/s][A
+DDIM Sampler:  79%|███████▉  | 158/200 [00:51<00:13,  3.08it/s][A
+DDIM Sampler:  80%|███████▉  | 159/200 [00:51<00:13,  3.08it/s][A
+DDIM Sampler:  80%|████████  | 160/200 [00:51<00:13,  3.08it/s][A
+DDIM Sampler:  80%|████████  | 161/200 [00:52<00:12,  3.08it/s][A
+DDIM Sampler:  81%|████████  | 162/200 [00:52<00:12,  3.08it/s][A
+DDIM Sampler:  82%|████████▏ | 163/200 [00:52<00:12,  3.08it/s][A
+DDIM Sampler:  82%|████████▏ | 164/200 [00:53<00:11,  3.08it/s][A
+DDIM Sampler:  82%|████████▎ | 165/200 [00:53<00:11,  3.08it/s][A
+DDIM Sampler:  83%|████████▎ | 166/200 [00:53<00:11,  3.08it/s][A
+DDIM Sampler:  84%|████████▎ | 167/200 [00:54<00:10,  3.08it/s][A
+DDIM Sampler:  84%|████████▍ | 168/200 [00:54<00:10,  3.08it/s][A
+DDIM Sampler:  84%|████████▍ | 169/200 [00:54<00:10,  3.08it/s][A
+DDIM Sampler:  85%|████████▌ | 170/200 [00:55<00:09,  3.08it/s][A
+DDIM Sampler:  86%|████████▌ | 171/200 [00:55<00:09,  3.07it/s][A
+DDIM Sampler:  86%|████████▌ | 172/200 [00:55<00:09,  3.07it/s][A
+DDIM Sampler:  86%|████████▋ | 173/200 [00:56<00:08,  3.07it/s][A
+DDIM Sampler:  87%|████████▋ | 174/200 [00:56<00:08,  3.07it/s][A
+DDIM Sampler:  88%|████████▊ | 175/200 [00:56<00:08,  3.07it/s][A
+DDIM Sampler:  88%|████████▊ | 176/200 [00:57<00:07,  3.07it/s][A
+DDIM Sampler:  88%|████████▊ | 177/200 [00:57<00:07,  3.06it/s][A
+DDIM Sampler:  89%|████████▉ | 178/200 [00:57<00:07,  3.07it/s][A
+DDIM Sampler:  90%|████████▉ | 179/200 [00:58<00:06,  3.07it/s][A
+DDIM Sampler:  90%|█████████ | 180/200 [00:58<00:06,  3.07it/s][A
+DDIM Sampler:  90%|█████████ | 181/200 [00:58<00:06,  3.07it/s][A
+DDIM Sampler:  91%|█████████ | 182/200 [00:59<00:05,  3.07it/s][A
+DDIM Sampler:  92%|█████████▏| 183/200 [00:59<00:05,  3.07it/s][A
+DDIM Sampler:  92%|█████████▏| 184/200 [00:59<00:05,  3.06it/s][A
+DDIM Sampler:  92%|█████████▎| 185/200 [00:59<00:04,  3.07it/s][A
+DDIM Sampler:  93%|█████████▎| 186/200 [01:00<00:04,  3.07it/s][A
+DDIM Sampler:  94%|█████████▎| 187/200 [01:00<00:04,  3.07it/s][A
+DDIM Sampler:  94%|█████████▍| 188/200 [01:00<00:03,  3.07it/s][A
+DDIM Sampler:  94%|█████████▍| 189/200 [01:01<00:03,  3.06it/s][A
+DDIM Sampler:  95%|█████████▌| 190/200 [01:01<00:03,  3.07it/s][A
+DDIM Sampler:  96%|█████████▌| 191/200 [01:01<00:02,  3.07it/s][A
+DDIM Sampler:  96%|█████████▌| 192/200 [01:02<00:02,  3.07it/s][A
+DDIM Sampler:  96%|█████████▋| 193/200 [01:02<00:02,  3.07it/s][A
+DDIM Sampler:  97%|█████████▋| 194/200 [01:02<00:01,  3.07it/s][A
+DDIM Sampler:  98%|█████████▊| 195/200 [01:03<00:01,  3.07it/s][A
+DDIM Sampler:  98%|█████████▊| 196/200 [01:03<00:01,  3.07it/s][A
+DDIM Sampler:  98%|█████████▊| 197/200 [01:03<00:00,  3.07it/s][A
+DDIM Sampler:  99%|█████████▉| 198/200 [01:04<00:00,  3.08it/s][A
+DDIM Sampler: 100%|█████████▉| 199/200 [01:04<00:00,  3.08it/s][A
+DDIM Sampler: 100%|██████████| 200/200 [01:04<00:00,  3.07it/s][ADDIM Sampler: 100%|██████████| 200/200 [01:04<00:00,  3.08it/s]
+Epoch 0:   0%|          | 2/475 [01:23<3:39:29, 27.84s/it, loss=0.12, v_num=0, train/loss_simple_step=0.120, train/loss_vlb_step=0.00145, train/loss_step=0.120, global_step=0.000, lr_abs=1e-11]Epoch 0:   0%|          | 2/475 [01:23<3:39:48, 27.88s/it, loss=0.101, v_num=0, train/loss_simple_step=0.0818, train/loss_vlb_step=0.000422, train/loss_step=0.0818, global_step=1.000, lr_abs=1.01e-9]Data shape for DDIM sampling is (4, 4, 64, 64), eta 1.0
+Running DDIM Sampling with 200 timesteps
+
+DDIM Sampler:   0%|          | 0/200 [00:00<?, ?it/s][A
+DDIM Sampler:   0%|          | 1/200 [00:00<01:04,  3.08it/s][A
+DDIM Sampler:   1%|          | 2/200 [00:00<01:04,  3.08it/s][A
+DDIM Sampler:   2%|▏         | 3/200 [00:00<01:03,  3.08it/s][A
+DDIM Sampler:   2%|▏         | 4/200 [00:01<01:03,  3.08it/s][A
+DDIM Sampler:   2%|▎         | 5/200 [00:01<01:03,  3.09it/s][A
+DDIM Sampler:   3%|▎         | 6/200 [00:01<01:02,  3.08it/s][A
+DDIM Sampler:   4%|▎         | 7/200 [00:02<01:02,  3.08it/s][A
+DDIM Sampler:   4%|▍         | 8/200 [00:02<01:02,  3.08it/s][A
+DDIM Sampler:   4%|▍         | 9/200 [00:02<01:01,  3.09it/s][A
+DDIM Sampler:   5%|▌         | 10/200 [00:03<01:01,  3.08it/s][A
+DDIM Sampler:   6%|▌         | 11/200 [00:03<01:01,  3.08it/s][A
+DDIM Sampler:   6%|▌         | 12/200 [00:03<01:01,  3.08it/s][A
+DDIM Sampler:   6%|▋         | 13/200 [00:04<01:00,  3.07it/s][A
+DDIM Sampler:   7%|▋         | 14/200 [00:04<01:00,  3.08it/s][A
+DDIM Sampler:   8%|▊         | 15/200 [00:04<01:00,  3.08it/s][A
+DDIM Sampler:   8%|▊         | 16/200 [00:05<00:59,  3.08it/s][A
+DDIM Sampler:   8%|▊         | 17/200 [00:05<00:59,  3.08it/s][A
+DDIM Sampler:   9%|▉         | 18/200 [00:05<00:59,  3.08it/s][A
+DDIM Sampler:  10%|▉         | 19/200 [00:06<00:58,  3.08it/s][A
+DDIM Sampler:  10%|█         | 20/200 [00:06<00:58,  3.08it/s][A
+DDIM Sampler:  10%|█         | 21/200 [00:06<00:58,  3.08it/s][A
+DDIM Sampler:  11%|█         | 22/200 [00:07<00:57,  3.08it/s][A
+DDIM Sampler:  12%|█▏        | 23/200 [00:07<00:57,  3.08it/s][A
+DDIM Sampler:  12%|█▏        | 24/200 [00:07<00:57,  3.08it/s][A
+DDIM Sampler:  12%|█▎        | 25/200 [00:08<00:56,  3.08it/s][A
+DDIM Sampler:  13%|█▎        | 26/200 [00:08<00:56,  3.08it/s][A
+DDIM Sampler:  14%|█▎        | 27/200 [00:08<00:56,  3.08it/s][A
+DDIM Sampler:  14%|█▍        | 28/200 [00:09<00:55,  3.08it/s][A
+DDIM Sampler:  14%|█▍        | 29/200 [00:09<00:55,  3.08it/s][A
+DDIM Sampler:  15%|█▌        | 30/200 [00:09<00:55,  3.08it/s][A
+DDIM Sampler:  16%|█▌        | 31/200 [00:10<00:54,  3.08it/s][A
+DDIM Sampler:  16%|█▌        | 32/200 [00:10<00:54,  3.08it/s][A
+DDIM Sampler:  16%|█▋        | 33/200 [00:10<00:54,  3.08it/s][A
+DDIM Sampler:  17%|█▋        | 34/200 [00:11<00:53,  3.08it/s][A
+DDIM Sampler:  18%|█▊        | 35/200 [00:11<00:53,  3.08it/s][A
+DDIM Sampler:  18%|█▊        | 36/200 [00:11<00:53,  3.08it/s][A
+DDIM Sampler:  18%|█▊        | 37/200 [00:12<00:52,  3.08it/s][A
+DDIM Sampler:  19%|█▉        | 38/200 [00:12<00:52,  3.08it/s][A
+DDIM Sampler:  20%|█▉        | 39/200 [00:12<00:52,  3.08it/s][A
+DDIM Sampler:  20%|██        | 40/200 [00:12<00:51,  3.08it/s][A
+DDIM Sampler:  20%|██        | 41/200 [00:13<00:51,  3.08it/s][A
+DDIM Sampler:  21%|██        | 42/200 [00:13<00:51,  3.08it/s][A
+DDIM Sampler:  22%|██▏       | 43/200 [00:13<00:51,  3.08it/s][A
+DDIM Sampler:  22%|██▏       | 44/200 [00:14<00:50,  3.08it/s][A
+DDIM Sampler:  22%|██▎       | 45/200 [00:14<00:50,  3.08it/s][A
+DDIM Sampler:  23%|██▎       | 46/200 [00:14<00:50,  3.08it/s][A
+DDIM Sampler:  24%|██▎       | 47/200 [00:15<00:49,  3.07it/s][A
+DDIM Sampler:  24%|██▍       | 48/200 [00:15<00:49,  3.08it/s][A
+DDIM Sampler:  24%|██▍       | 49/200 [00:15<00:49,  3.08it/s][A
+DDIM Sampler:  25%|██▌       | 50/200 [00:16<00:48,  3.08it/s][A
+DDIM Sampler:  26%|██▌       | 51/200 [00:16<00:48,  3.09it/s][A
+DDIM Sampler:  26%|██▌       | 52/200 [00:16<00:47,  3.08it/s][A
+DDIM Sampler:  26%|██▋       | 53/200 [00:17<00:47,  3.08it/s][A
+DDIM Sampler:  27%|██▋       | 54/200 [00:17<00:47,  3.08it/s][A
+DDIM Sampler:  28%|██▊       | 55/200 [00:17<00:47,  3.08it/s][A
+DDIM Sampler:  28%|██▊       | 56/200 [00:18<00:46,  3.08it/s][A
+DDIM Sampler:  28%|██▊       | 57/200 [00:18<00:46,  3.08it/s][A
+DDIM Sampler:  29%|██▉       | 58/200 [00:18<00:46,  3.08it/s][A
+DDIM Sampler:  30%|██▉       | 59/200 [00:19<00:45,  3.08it/s][A
+DDIM Sampler:  30%|███       | 60/200 [00:19<00:45,  3.08it/s][A
+DDIM Sampler:  30%|███       | 61/200 [00:19<00:45,  3.08it/s][A
+DDIM Sampler:  31%|███       | 62/200 [00:20<00:44,  3.07it/s][A
+DDIM Sampler:  32%|███▏      | 63/200 [00:20<00:44,  3.08it/s][A
+DDIM Sampler:  32%|███▏      | 64/200 [00:20<00:44,  3.08it/s][A
+DDIM Sampler:  32%|███▎      | 65/200 [00:21<00:43,  3.08it/s][A
+DDIM Sampler:  33%|███▎      | 66/200 [00:21<00:43,  3.07it/s][A
+DDIM Sampler:  34%|███▎      | 67/200 [00:21<00:43,  3.08it/s][A
+DDIM Sampler:  34%|███▍      | 68/200 [00:22<00:42,  3.08it/s][A
+DDIM Sampler:  34%|███▍      | 69/200 [00:22<00:42,  3.07it/s][A
+DDIM Sampler:  35%|███▌      | 70/200 [00:22<00:42,  3.08it/s][A
+DDIM Sampler:  36%|███▌      | 71/200 [00:23<00:41,  3.08it/s][A
+DDIM Sampler:  36%|███▌      | 72/200 [00:23<00:41,  3.08it/s][A
+DDIM Sampler:  36%|███▋      | 73/200 [00:23<00:41,  3.08it/s][A
+DDIM Sampler:  37%|███▋      | 74/200 [00:24<00:40,  3.08it/s][A
+DDIM Sampler:  38%|███▊      | 75/200 [00:24<00:40,  3.08it/s][A
+DDIM Sampler:  38%|███▊      | 76/200 [00:24<00:40,  3.08it/s][A
+DDIM Sampler:  38%|███▊      | 77/200 [00:25<00:39,  3.08it/s][A
+DDIM Sampler:  39%|███▉      | 78/200 [00:25<00:39,  3.08it/s][A
+DDIM Sampler:  40%|███▉      | 79/200 [00:25<00:39,  3.08it/s][A
+DDIM Sampler:  40%|████      | 80/200 [00:25<00:38,  3.08it/s][A
+DDIM Sampler:  40%|████      | 81/200 [00:26<00:38,  3.08it/s][A
+DDIM Sampler:  41%|████      | 82/200 [00:26<00:38,  3.08it/s][A
+DDIM Sampler:  42%|████▏     | 83/200 [00:26<00:37,  3.09it/s][A
+DDIM Sampler:  42%|████▏     | 84/200 [00:27<00:37,  3.08it/s][A
+DDIM Sampler:  42%|████▎     | 85/200 [00:27<00:37,  3.08it/s][A
+DDIM Sampler:  43%|████▎     | 86/200 [00:27<00:36,  3.08it/s][A
+DDIM Sampler:  44%|████▎     | 87/200 [00:28<00:36,  3.08it/s][A
+DDIM Sampler:  44%|████▍     | 88/200 [00:28<00:36,  3.08it/s][A
+DDIM Sampler:  44%|████▍     | 89/200 [00:28<00:36,  3.08it/s][A
+DDIM Sampler:  45%|████▌     | 90/200 [00:29<00:35,  3.08it/s][A
+DDIM Sampler:  46%|████▌     | 91/200 [00:29<00:35,  3.08it/s][A
+DDIM Sampler:  46%|████▌     | 92/200 [00:29<00:35,  3.08it/s][A
+DDIM Sampler:  46%|████▋     | 93/200 [00:30<00:34,  3.08it/s][A
+DDIM Sampler:  47%|████▋     | 94/200 [00:30<00:34,  3.07it/s][A
+DDIM Sampler:  48%|████▊     | 95/200 [00:30<00:34,  3.07it/s][A
+DDIM Sampler:  48%|████▊     | 96/200 [00:31<00:33,  3.07it/s][A
+DDIM Sampler:  48%|████▊     | 97/200 [00:31<00:33,  3.08it/s][A
+DDIM Sampler:  49%|████▉     | 98/200 [00:31<00:33,  3.08it/s][A
+DDIM Sampler:  50%|████▉     | 99/200 [00:32<00:32,  3.08it/s][A
+DDIM Sampler:  50%|█████     | 100/200 [00:32<00:32,  3.08it/s][A
+DDIM Sampler:  50%|█████     | 101/200 [00:32<00:32,  3.08it/s][A
+DDIM Sampler:  51%|█████     | 102/200 [00:33<00:31,  3.08it/s][A
+DDIM Sampler:  52%|█████▏    | 103/200 [00:33<00:31,  3.08it/s][A
+DDIM Sampler:  52%|█████▏    | 104/200 [00:33<00:31,  3.08it/s][A
+DDIM Sampler:  52%|█████▎    | 105/200 [00:34<00:30,  3.08it/s][A
+DDIM Sampler:  53%|█████▎    | 106/200 [00:34<00:30,  3.08it/s][A
+DDIM Sampler:  54%|█████▎    | 107/200 [00:34<00:30,  3.08it/s][Aslurmstepd: error: *** JOB 15206662 ON gpu1 CANCELLED AT 2023-03-12T20:49:30 ***
+
+DDIM Sampler:  54%|█████▍    | 108/200 [00:35<00:29,  3.07it/s][AJob has already finished for job 15206662
+slurmstepd: error: --task-epilog failed status=256

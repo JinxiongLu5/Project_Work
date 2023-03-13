@@ -1,0 +1,5 @@
+python3 open_images_downloader.py --max-images=250 --class-names "Apple,Orange,Banana" --data=data/fruit
+
+Downloading: "https://github.com/DagnyT/hardnet/raw/master/pretrained/train_liberty_with_aug/checkpoint_liberty_with_aug.pth" to /u/30/luj4/unix/.cache/torch/hub/checkpoints/checkpoint_liberty_with_aug.pth
+
+conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia

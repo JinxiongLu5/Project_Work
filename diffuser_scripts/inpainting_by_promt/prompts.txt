@@ -1,0 +1,11 @@
+a mecha robot
+a boy
+a girl
+a cat
+a fish
+a panda
+a horse
+a cow
+a sheep
+a tiger
+a lion
